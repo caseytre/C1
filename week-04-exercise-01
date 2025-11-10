@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 04 Exercise 01 - My Dev Tools Vandalism</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main>
+        <h1>My Dev Tools Vandalism</h1>
+        <p>
+            I used browser developer tools to temporarily "vandalize" a
+            website. Below is a screenshot showing my changes. These edits
+            only appeared on my computer and did not affect the actual
+            website.
+        </p>
+        <div class="screenshot-container">
+            <!-- 
+                IMPORTANT: Update the src attribute below to match your screenshot filename.
+                Example: If your screenshot is named "apple-dot-com-but-with-papyrus-font.png", change the line to:
+                src="./apple-dot-com-but-with-papyrus-font.png"
+            -->
+            <img src="./apple-dot-com-but-with-odd-words.png" alt="Screenshot of the webpage I vandalized" />
+        </div>
+        <h2>What I "Vandalized"</h2>
+        <p>
+            Describe the changes you made to the website using the browser's developer tools. Some potential questions
+            to consider:
+        <ul>
+            <li>What text did you edit?</li>
+<p>I edited the main header and side subheaders</p>
+            <li>What CSS properties did you modify?</li>
+<p>I modified size, font, and color.</p>
+            <li>What made your edits interesting or amusing?</li>
+<p>Personally I thought it was really funny</p>
+            <li>Did you understand why some changes worked and some didn't?</li>
+<p>Yes, sometimes I couldn't change specific parts without alterating other things first</p>
+            <li>Why did you choose the changes you did?</li>
+<p>Funny, a bit immature but it was fun making such a common website look different</p>
+            <li>Were you able to understand how the HTML and CSS worked together to make the changes you made?</li>
+<p>Oh yah, they really go hand-in-hand</p>
+            <li>Do you think you have a better sense of how dev tools can be used while crafting your own webpages?</li>
+<p>Yes</p>
+        </ul>
+        </p>
+    </main>
+</body>
+
+</html>
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0;
+}
+
+main {
+    max-width: 800px;
+    width: 90%;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 1em;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    padding-bottom: 16px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+.screenshot-container {
+    margin: 32px 0;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.screenshot-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
