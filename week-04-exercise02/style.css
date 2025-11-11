@@ -1,0 +1,45 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #333; /* keeps text readable */
+}
+h1, h2 {
+  font-family: 'Pacifico', cursive; /* optional extra cute touch */
+  color: #e77ebf; /* soft pinkish tone */
+}
+img[src="colorado-tree.png"] {
+  width: 250px; /* adjust this number as needed */
+  height: auto; /* keeps the proportions correct */
+  display: block;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+img[src="chicago-river.png"] {
+    width: 250px;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+img[src="hawaii-mountains.png"]{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+img[src="my-cat.png"] {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+img[src="red-mountain.png"] {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+img[src="mini-painting.png"] {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
