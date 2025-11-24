@@ -8,7 +8,7 @@ body {
   font-family: "Times New Roman", serif;
   font-size: 16px;
   line-height: 2;
-  color: #111111;
+  color: #ff7474;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ li {
 }
 
 a {
-  color: #0066CC;
+  color: #9cbddf;
   text-decoration: underline;
 }
 
@@ -145,6 +145,24 @@ code {
 
 .nav-horizontal+main {
   margin-top: 80px;
+}
+
+.nav-centered ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  background: #f0f0ff;
+}
+
+.nav-centered a {
+  text-decoration: none;
+  color: #5fedbe;
+  font-weight: bold;
+}
+
+.nav-centered a:hover {
+  color: #9d8eff;
 }
 
 .nav-custom {}
